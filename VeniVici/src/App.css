@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  gap: 50px; /* Ajusta la separación entre los paneles */
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #303a46;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.cat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cat-info p {
+  margin: 5px 0 ;
+}
+
+
+.panel {
+  width: 800px;
+  height: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.left-panel {
+  background-color: #f0f0f0;
+}
+
+.center-panel {
+  background-color: #fff;
+}
+
+.right-panel {
+  background-color: #f0f0f0;
+}
+
+.small-cat-image {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 10Wpx;
+}
+
+.cat-image {
+  max-width: 100%;
+  height: 25rem;
+  width: 30rem;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.attribute {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.attribute label {
+  font-weight: bold;
+}
+
+.attribute p {
+  margin: 5px 0;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #666;
+}
+
+button {
+  background-color: #303a46;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.small-cat-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.previous-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  overflow-y: auto;
+  width: 100%;
+  max-height: 800px;
+}
